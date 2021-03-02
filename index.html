@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/estilos.css">
+  <title>Tailwind css</title>
+</head>
+<body>
+  <div class="my-2 mx-auto">
+    <!-- Header Nav -->
+    <header class="flex justify-between items-center">
+      <nav class="p-2 flex items-center">
+        <h4 class="m-2 text-2xl">Logo</h4>
+        <a href="./index.html" class="mr-2 active" >Home</a>
+        <a href="./pages/about.html" class="mr-2 hover:text-red-500" >About</a>
+        <a href="" class="hover:text-red-500" >Contact</a>
+      </nav>
+      <nav class="p-2 text-center">
+        <a href="" class="mr-2 bg-blue-600 hover:bg-blue-800 px-3 py-2 text-white rounded">Login</a>
+        <a href="" class="bg-gray-200 hover:bg-gray-400 hover:text-white px-3 py-2 rounded">Register</a>
+      </nav>
+    </header>
+    <!-- End of Header Nav -->    
+    <!-- Cards -->
+    <article class="bg-gray-600 my-4 pb-3">
+      <h3 class="text-center text-white py-3 text-bold text-xl">Cards</h3>
+      <section class="mx-auto my-3 grid grid-cols-3 gap-x-8 gap-y-4">
+        <!-- Card One -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72 overflow-hidden">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, rem dolore. Consequatur eius natus asperiores! Aliquid ipsa aliquam libero quia iusto? Quia, ullam impedit totam distinctio dolores vitae nihil officia.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Card Two -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque dolor labore minus fugiat perferendis ducimus, excepturi accusantium suscipit? Quidem.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Card three -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque dolor labore minus fugiat perferendis ducimus, excepturi accusantium suscipit? Quidem.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Card Four -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque dolor labore minus fugiat perferendis ducimus, excepturi accusantium suscipit? Quidem.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Card Five -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque dolor labore minus fugiat perferendis ducimus, excepturi accusantium suscipit? Quidem.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+        <!-- Card Six -->
+        <div class="cartas">
+          <img src="./public/img/pexels-anete-lusina-6331043.jpg" alt="random" width="300" class="group-hover:opacity-10 hover:transision duration-300 ease-in-out">
+          <div class="absolute opacity-0 group-hover:opacity-100 w-72">
+            <h3 class="font-serif font-semibold text-indigo-400 font-xl flex justify-center">hola</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure itaque dolor labore minus fugiat perferendis ducimus, excepturi accusantium suscipit? Quidem.</p>
+          </div>
+        </div>
+        <!-- End Card -->
+      </section>
+    </article>
+    <!-- End Cards -->
+
+    <article class="container flex flex-col justify-center my-4 mx-auto">
+      <div class="grid grid-cols-2 gap-x-8 gap-y-4">
+        <div class="border-2 border-red-500 p-5 rounded border-dashed">
+          <h4 class="text-center">HOla</h4>
+        </div>
+        <div class="border-2 border-red-500 p-5 rounded">
+          <h4 class="text-center">HOla</h4>
+        </div>
+      </div>
+      <div class="container mx-auto my-4">
+        <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-600 hover:transision duration-400 ease-in-out rounded py-2 px-3">
+          <h5 class="text-center text-white">Hellow wold!</h5>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</body>
+</html>
