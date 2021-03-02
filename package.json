@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss public/css/tailwind.css --output public/css/estilos.css",
-    "watch": "postcss public/css/tailwind.css --output public/css/estilos.css --watch"
+    "build": "postcss root/public/css/tailwind.css --output root/public/css/estilos.css",
+    "watch": "postcss root/public/css/tailwind.css --output root/public/css/estilos.css --watch"
   },
   "author": "",
   "license": "ISC",
